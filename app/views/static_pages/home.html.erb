@@ -1,60 +1,12 @@
 <% fourth() -%>
 <h2>Is it the 4th of July?</h2>
 <% if @fourth -%>
-<style>
-  h1 {
-     display: inline-block;
-     margin-top: 200px;
-     font-weight: bold;
-     font-size: 120pt;
-     font-family: Arial, sans-serif;
-     text-decoration: none;
-     color: red;
-     cursor: default;
-  }
-
-  body {
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("https://lh6.googleusercontent.com/ssb4DTRQBePNPOqfFoVcLRdo_slWhecHB_DlsuBGydSGJc5OUVEKmmkjewK1c_ifxf846bZRamOBSPxAxtdKN031chlkgLUCeBclzB3ro-Jspjbhz_HZ5iFNf-oaEyl0AA")
-
-  }
-  footer {
-    font-size: 8pt;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;            /* Footer height */
-  }
-</style>
-<h1>Heck YA!</h1>
+<body class="fourth">
+  <h1 class="fourth">Heck YA!</h1>
+</body>
 <% else -%>
-<style>
-  h1 {
-     display: inline-block;
-     margin-top: 200px;
-     font-weight: bold;
-     font-size: 120pt;
-     font-family: Arial, sans-serif;
-     text-decoration: none;
-     color: black;
-     cursor: default;
-  }
-
-  body {
-    text-align: center;
-  }
-  footer {
-    font-size: 8pt;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;            /* Footer height */
-  }
-</style>
 <h1>NO</h1>
 <% end -%>
 <footer>
-<a href="https://github.com/spuder/isitthefourthofjuly">https://github.com/spuder/isitthefourthofjuly</a>
+<a href="https://github.com/spuder/isitthefourthofjuly" target="_blank">https://github.com/spuder/isitthefourthofjuly</a>
 </footer>
