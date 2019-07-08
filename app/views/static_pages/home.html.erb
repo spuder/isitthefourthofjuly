@@ -1,2 +1,39 @@
 <% fourth() -%>
-<h1><%= @fourth -%></h1>
+<% if @fourth -%>
+<style>
+  h1 {
+     display: inline-block;
+     margin-top: 200px;
+     font-weight: bold;
+     font-size: 120pt;
+     font-family: Arial, sans-serif;
+     text-decoration: none;
+     color: black;
+     cursor: default;
+  }
+
+  body {
+    text-align: center;
+  }
+</style>
+<h1>NO</h1>
+<% else -%>
+<style>
+  h1 {
+     display: inline-block;
+     margin-top: 200px;
+     font-weight: bold;
+     font-size: 120pt;
+     font-family: Arial, sans-serif;
+     text-decoration: none;
+     color: red;
+     cursor: default;
+  }
+
+  body {
+    text-align: center;
+    background-image: url("https://lh6.googleusercontent.com/ssb4DTRQBePNPOqfFoVcLRdo_slWhecHB_DlsuBGydSGJc5OUVEKmmkjewK1c_ifxf846bZRamOBSPxAxtdKN031chlkgLUCeBclzB3ro-Jspjbhz_HZ5iFNf-oaEyl0AA")
+  }
+</style>
+<h1>Heck YA!</h1>
+<% end -%>
